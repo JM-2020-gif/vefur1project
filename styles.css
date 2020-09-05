@@ -1,9 +1,63 @@
-.menu
-{
-    width:1000px;
-    height:700px;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top:40px;
-    background-color: rgb(126, 140, 153);
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    background: white;
+    font-family: 'Montserrat';
+}
+
+/* Menu */
+
+.nav {
+    display: flex;
+    list-style: none;
+    padding: 3rem 1rem;
+} 
+
+.nav > :first-child {
+    margin-right: auto;
+}
+
+.nav a {
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    text-decoration: none;
+    color: black;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+
+.nav a:hover {
+    border-bottom: 2px;
+    border-style: solid;
+}
+
+.nav > :last-child a {
+    margin-right: 3.0rem;
+}
+
+/* Text & fonts */
+
+a {
+
+}
+
+a:hover {
+
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 36px;
 }
