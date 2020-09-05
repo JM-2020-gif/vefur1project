@@ -1,42 +1,9 @@
-<!DOCTYPE html>
-<html lang="en-US">
-​
-<head>
-​
-    <!-- Basic meta-tags --->
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta name="description" content="Lorem ipsum dolor sit amet consectetur adipiscing elit porttitor, sociosqu viverra diam eros interdum mauris montes vel, faucibus senectus habitasse vestibulum.">
-    <meta name="robots" content="follow, index">
-​
-    <!-- Reference to CSS-file --->
-    <link rel="stylesheet" href="style.css">
-​
-    <title>Sofia Wood | Industrial designer</title>
-
-</head>
-​
-<body>
-    <header>
-        <img alt="Sofia Wood's logo" src="logo.png">
-        <ul>
-            <li><a href="/about/">About</a></li>
-            <li><a href="/projects/">Projects</a></li>
-            <li><a href="/contact/">Contact</a></li>
-        </ul>
-    </header>
-​
-    <!-- Sideways right-sidebar --->   
-    <h1>Sofia Wood</h1>
-   
-    <!-- Page main content --->  
-    <h2>Portfolio</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at quam vitae felis interdum tristique ut sit amet arcu. Ut at consectetur augue. Praesent arcu tortor, hendrerit non neque sit amet, hendrerit dictum ligula. Suspendisse sit amet cursus urna. Fusce id massa vel nibh sagittis aliquet. Nullam eu lorem molestie, elementum risus at, convallis odio. Vivamus elementum eleifend leo sed vulputate. Pellentesque commodo lectus sit amet dapibus pharetra.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at quam vitae felis interdum tristique ut sit amet arcu. Ut at consectetur augue. Praesent arcu tortor, hendrerit non neque sit amet, hendrerit dictum ligula. Suspendisse sit amet cursus urna. Fusce id massa vel nibh sagittis aliquet. Nullam eu lorem molestie, elementum risus at, convallis odio. Vivamus elementum eleifend leo sed vulputate. Pellentesque commodo lectus sit amet dapibus pharetra.</p>
-​     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at quam vitae felis interdum tristique ut sit amet arcu. Ut at consectetur augue. Praesent arcu tortor, hendrerit non neque sit amet, hendrerit dictum ligula. Suspendisse sit amet cursus urna. Fusce id massa vel nibh sagittis aliquet. Nullam eu lorem molestie, elementum risus at, convallis odio. Vivamus elementum eleifend leo sed vulputate. Pellentesque commodo lectus sit amet dapibus pharetra.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at quam vitae felis interdum tristique ut sit amet arcu. Ut at consectetur augue. Praesent arcu tortor, hendrerit non neque sit amet, hendrerit dictum ligula. Suspendisse sit amet cursus urna. Fusce id massa vel nibh sagittis aliquet. Nullam eu lorem molestie, elementum risus at, convallis odio. Vivamus elementum eleifend leo sed vulputate. Pellentesque commodo lectus sit amet dapibus pharetra.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at quam vitae felis interdum tristique ut sit amet arcu. Ut at consectetur augue. Praesent arcu tortor, hendrerit non neque sit amet, hendrerit dictum ligula. Suspendisse sit amet cursus urna. Fusce id massa vel nibh sagittis aliquet. Nullam eu lorem molestie, elementum risus at, convallis odio. Vivamus elementum eleifend leo sed vulputate. Pellentesque commodo lectus sit amet dapibus pharetra.</p>
-​     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at quam vitae felis interdum tristique ut sit amet arcu. Ut at consectetur augue. Praesent arcu tortor, hendrerit non neque sit amet, hendrerit dictum ligula. Suspendisse sit amet cursus urna. Fusce id massa vel nibh sagittis aliquet. Nullam eu lorem molestie, elementum risus at, convallis odio. Vivamus elementum eleifend leo sed vulputate. Pellentesque commodo lectus sit amet dapibus pharetra.</p>
-
-</body>
-​
-</html>
+.menu
+{
+    width:1000px;
+    height:700px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:40px;
+    background-color: rgb(126, 140, 153);
+}
