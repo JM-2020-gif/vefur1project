@@ -190,3 +190,13 @@ p {
 .social {
     display:flex;
 }
+.social {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.icons {
+    padding: 1rem 1rem;
+}
