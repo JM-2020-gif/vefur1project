@@ -181,3 +181,12 @@ p {
 #logo {
 
 }
+
+.images-frontpage {
+    margin: 1rem 1rem;
+
+}
+
+.social {
+    display:flex;
+}
