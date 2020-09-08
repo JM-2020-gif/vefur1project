@@ -11,6 +11,42 @@ body {
     font-family: 'Montserrat';
 }
 
+.pageContainer {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+    padding: 20px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sidebar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 40px;
+    width: 120px;
+    flex: 0 0 auto;
+    background: linear-gradient(to left, #ffffff 50%, #f9d96a 50%);
+    writing-mode: vertical-rl;
+    text-orientation: mixed; 
+  }
+
+  aside {
+      background: green;
+  
+  }
+
 /* Menu */
 
 .header {
