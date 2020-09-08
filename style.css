@@ -13,6 +13,9 @@ body {
 
 /* Menu */
 
+.header {
+  width: 80%;
+}
 .nav {
     display: flex;
     list-style: none;
@@ -45,6 +48,10 @@ body {
 
 .nav > :last-child a {
     margin-right: 3.0rem; 
+}
+
+main {
+    width: 80%;
 }
 
 /* Text & fonts */
@@ -134,10 +141,8 @@ p {
     line-height: 19px;
     text-decoration: none;
 }
-header{
-    float: right;
 
-}
+
 .page-title {
     transform: rotate(90deg);
     padding-left: 1.2rem;
@@ -175,15 +180,12 @@ header{
 
 }
 
-.images-frontpage {
-
-    margin: 100px;
-    flex-wrap: nowrap | wrap | wrap-reverse;
-}
 
 .social {
     display:flex;
+    width: ;
 }
+
 .social {
     display: flex;
     justify-content: center;
@@ -194,4 +196,25 @@ header{
 .icons {
     padding: 1rem 1rem;
 }
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+
+ img .img-left{
+      float: left;
+
+  }
 
