@@ -26,7 +26,7 @@ body {
   }
 
   .header {
-    display: flex;
+    display: right;
     justify-content: space-between;
   }
 
@@ -41,7 +41,7 @@ body {
     writing-mode: vertical-rl;
     text-orientation: mixed; 
   }
-
+ /*
   aside {
       background: green;
   
@@ -242,7 +242,7 @@ p {
   
   .flex-container > div {
     background-color: #f1f1f1;
-    width: 400px;
+    width: 300px;
     margin: 10px;
     text-align: center;
     line-height: 75px;
