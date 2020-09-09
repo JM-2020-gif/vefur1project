@@ -406,6 +406,12 @@ p {
     width: 270px;
     height: 190px;
     padding: 0 10px;
+    transition: transform .2s;
+
+}
+
+.about-images img:hover{
+    transform: scale(1.1);
 }
 
 /*Project pages /clay/light/wood*/
