@@ -426,6 +426,11 @@ p {
     justify-content: center;
 }
 
+.flex-container img {
+    width: 200px;
+    height: 200px;
+}
+
 .flex-container>div {
     background-color: #f1f1f1;
     width: 300px;
