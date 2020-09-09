@@ -107,6 +107,34 @@ main {
     margin: 0 auto;
 }
 
+/*Front page*/
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.flex-container img {
+    width: 200px;
+    height: 200px;
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+img .img-left {
+    float: left;
+
+}
+
 /* Text & fonts */
 
 a {}
@@ -418,29 +446,3 @@ p {
 }
 
 
-
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: center;
-}
-
-.flex-container img {
-    width: 200px;
-    height: 200px;
-}
-
-.flex-container>div {
-    background-color: #f1f1f1;
-    width: 300px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-}
-
-img .img-left {
-    float: left;
-
-}
