@@ -49,11 +49,11 @@
             </div>
 
             <div class="right-col">
-                    <form>
+                    <form onsubmit="return false">
                         <input type="text" id="full_name" name="full_name" placeholder="Name"><br>
-                        <input type="text" id="email" name="email" placeholder="E-mail"><br>
+                        <input type="email" id="email" name="email" placeholder="E-mail"><br>
                         <textarea id="message" name="message" rows="5" placeholder="Message"></textarea>
-                        <input type="submit" class="btn" value="Send">
+                        <button class="btn" onclick="sendContact();">Send</button>
                     </form>
             </div>
                 
