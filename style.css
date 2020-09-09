@@ -78,6 +78,7 @@ aside {
     margin-left: 1.2rem;
 }
 
+
 .nav a {
     margin: 1rem;
     padding: 0;
@@ -271,7 +272,9 @@ p {
 
 /* Images & logo */
 
-#logo {}
+#logo {
+    text-decoration: none;
+}
 
 
 .social {
@@ -338,7 +341,7 @@ p {
     display: grid;
     grid-template-rows: 1fr 240px;
     max-width: 65em;
-    margin: 100px auto;
+    margin-bottom: 240px;
     padding: 16px;
 
 }
