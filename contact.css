@@ -1,0 +1,122 @@
+.page-title {
+    background: linear-gradient(to left, #ffffff 50%, #d6c9c0 50%) !important;
+}
+
+.left-col {
+    float: left;
+    width: 50%;
+    padding-right: 5rem;
+}
+
+.right-col {
+    float:left;
+    width: 50%;
+}
+
+.text-smaller {
+    font-size: 16px !important;
+    text-transform: none !important;
+}
+
+.two-column {
+    grid-row: 2;
+    padding: 5rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.no-transform {
+    text-transform: none !important;
+}
+
+.icon-section {
+    margin-top: 4rem;
+}
+
+.icon-text:link {
+    font-size: 18px !important;
+    font-family: 'Montserrat';
+    text-decoration: none !important;
+    color: black;
+}
+
+.icon {
+    height: 30px;
+    padding-right: 20px;
+    vertical-align: middle;
+}
+
+.p-wrapper {
+    margin-bottom: 1rem;
+}
+
+.address> :first-child {
+    margin-top: 2rem;
+}
+
+.btn {
+    font-family: 'Raleway' !important;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff !important;
+    background-color: #4b4a45;
+    text-transform: uppercase;
+    border-radius: 30px;
+    letter-spacing: 0.04em;
+    padding: 15px 40px 15px 40px;
+    line-height: 19px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    margin-top: 20px;
+    border: 0px;
+}
+
+
+.btn:hover {
+    font-family: 'Raleway' !important;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #4b4a45 !important;
+    background-color: #b3c1b4;
+    text-transform: uppercase;
+    border-radius: 30px;
+    letter-spacing: 0.04em;
+    padding: 15px 40px 15px 40px;
+    line-height: 19px;
+    text-decoration: none;
+    margin-top: 20px;
+    border: 0px;
+
+}
+
+input[type=text] {
+    padding: 10px;
+    margin-bottom: 40px;
+    border: 1px solid #4B4A45;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Raleway' !important;
+}
+
+input[type=email] {
+    padding: 10px;
+    margin-bottom: 40px;
+    border: 1px solid #4B4A45;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Raleway' !important;
+}
+
+textarea {
+    padding: 10px;
+    margin-bottom: 40px;
+    border: 1px solid #4B4A45;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Raleway' !important;
+}
