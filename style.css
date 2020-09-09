@@ -421,19 +421,16 @@ p {
 
 .top-container {
     display: grid;
-<<<<<<< HEAD
     grid-template-columns: 40% 60%;
 }
 
 .container-left img {
     display: flex;
-=======
     grid-template-columns: 1fr 1fr;
 
 }
 
 .top-container img {
->>>>>>> b0ddf82a4646a951e06dad8b9028dbc565120dbf
     width: 557px;
     height: 415px;
     z-index: 3;
