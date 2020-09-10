@@ -155,9 +155,6 @@ img .img-left {
 
 /* Text & fonts */
 
-a {}
-
-a:hover {}
 
 h1 {
     font-size: 64px;
@@ -337,6 +334,10 @@ p {
     text-decoration: underline;
 }
 
+.page-title-projects {
+    background: linear-gradient(to left, #ffffff 50%, #b3c1b4 50%) !important;
+}
+
 /*About page*/
 
 .about-container {
@@ -400,6 +401,11 @@ p {
     width: 270px;
     height: 190px;
     padding: 10px 10px;
+}
+
+.page-title-about {
+    background: linear-gradient(to left, #ffffff 50%, #e9e9e5 50%) !important;
+
 }
 
 /*Project pages /clay/light/wood*/
@@ -471,4 +477,8 @@ p {
 
 .bottom-container img:hover {
     transform: scale(1.3);
+}
+
+.page-title-project {
+    background: linear-gradient(to left, #ffffff 50%, #b3c1b4 50%) !important;
 }
