@@ -251,7 +251,7 @@ p {
     writing-mode: vertical-rl;
     text-orientation: mixed;
     max-width: 100%;
-    padding-top: 20px;
+    padding-top: 24px;
 }
 
 /* Color palette */
@@ -362,7 +362,7 @@ p {
     justify-content: center;
     background-color: #d6c9c0;
     max-width: 360px;
-    padding: 0 50px;
+    padding: 20px 50px 0 50px;
     border-radius: 10%;
     margin: auto;
     height: 100%;
@@ -374,7 +374,6 @@ p {
 
 .about-list {
     list-style-type: none;
-    line-height: 36px;
 }
 
 .about-list p:not(.subtitle) {
