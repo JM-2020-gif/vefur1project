@@ -81,6 +81,8 @@ aside {
     align-items: center;
     text-align: center;
     letter-spacing: -0.02em;
+    color: #4b4a45;
+
 }
 
 .nav a:hover {
@@ -162,16 +164,19 @@ h1 {
     font-weight: 400;
     text-transform: uppercase;
     margin-left: 20px;
+    color: #4b4a45;
 }
 
 h2 {
     font-size: 30px;
     font-family: "Montserrat";
     font-weight: 500;
+
 }
 
 h3 {
     font-size: 24px;
+
 }
 
 p {
@@ -249,6 +254,10 @@ p {
     text-orientation: mixed;
     max-width: 100%;
     padding-top: 24px;
+}
+
+::selection {
+    background: #b3c1b4;
 }
 
 /* Color palette */
