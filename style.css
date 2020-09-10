@@ -391,16 +391,15 @@ p {
 
 .about-images {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
-    padding: 16px;
-    justify-content: space-between;
-    align-content: center;
+    justify-content: center;
 }
 
 .about-images img {
     width: 270px;
     height: 190px;
-    padding: 0 10px;
+    padding: 10px 10px;
 }
 
 /*Project pages /clay/light/wood*/
