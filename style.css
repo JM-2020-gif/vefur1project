@@ -1,4 +1,7 @@
 /* Last mod by andrea */
+html, body {
+    height: 100%;
+}
 
 * {
     box-sizing: border-box;
@@ -22,6 +25,7 @@ aside {
     display: grid;
     grid-template-columns: 1fr 115px;
     grid-template-rows: fit-content(1px) 1fr;
+    height: 100%
 }
 
 /*
@@ -127,6 +131,7 @@ main {
     width: 415px;
     justify-content: space-between;
     margin: 0 auto;
+    padding: 24px 0;
 }
 
 @media (min-width: 800px) {
@@ -294,6 +299,7 @@ p {
     justify-content: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    grid-column: 1/3;
 }
 
 .icons {
