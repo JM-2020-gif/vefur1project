@@ -24,6 +24,7 @@ aside {
     grid-template-rows: fit-content(1px) 1fr;
 }
 
+/*
 .pageContainer {
     display: flex;
     flex-direction: row;
@@ -37,6 +38,7 @@ aside {
     flex: 1 0 auto;
     padding: 20px;
 }
+*/
 
 .header {
     justify-content: space-between;
@@ -279,9 +281,6 @@ p {
     text-decoration: none;
 }
 
-.social {
-    display: flex;
-}
 
 .social {
     display: flex;
