@@ -22,10 +22,10 @@
         <header class="header">
             <nav>
                 <ul class="nav">
-                    <li id="logo"><img alt="Sofia Wood's logo" src="logo.svg"></li>
-                    <li><a href="/about/">About</a></li>
-                    <li><a href="/projects/">Projects</a></li>
-                    <li><a href="/contact/">Contact</a></li>
+                    <li id="logo"><a href="index.html"><img alt="Sofia Wood's logo" src="logo.svg"></a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/projects.html">Projects</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -35,28 +35,32 @@
             <div class="left-col">
                 <h2 class="subtitle no-transform">Send me a message</h2>
                 <br>
-                <p class="text-smaller">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum odio expedita aliquid nostrum nesciunt fugiat corporis.</p>
+                <p class="text-smaller">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum odio expedita
+                    aliquid nostrum nesciunt fugiat corporis.</p>
                 <br>
-                <p class="text-smaller">Eius autem eum quibusdam possimus eveniet architecto dolorum ut soluta ullam laboriosam. Recusandae, mollitia!</p>
+                <p class="text-smaller">Eius autem eum quibusdam possimus eveniet architecto dolorum ut soluta ullam
+                    laboriosam. Recusandae, mollitia!</p>
                 <div class="icon-section">
                     <p class="subtitle">Sofia Wood</p>
                     <div class="address">
-                    <p class="p-wrapper"><img class="icon" src="images/Icons/Phone.svg"><a class="icon-text" href="tel:+3545555555">+354 555 5555</a></p>
-                    <p class="p-wrapper"><img class="icon" src="images/Icons/Email.svg"><a href="dingdong@wood.com" class="icon-text">DINGDONG@WOOD.COM</a></p>
-                    <p class="p-wrapper"><img class="icon" src="images/Icons/Location.svg"><a class="icon-text" href="#">REYKJAVIK, ICELAND</a></p>
+                        <p class="p-wrapper"><img class="icon" src="images/Icons/Phone.svg"><a class="icon-text"
+                                href="tel:+3545555555">+354 555 5555</a></p>
+                        <p class="p-wrapper"><img class="icon" src="images/Icons/Email.svg"><a href="dingdong@wood.com"
+                                class="icon-text">DINGDONG@WOOD.COM</a></p>
+                        <p class="p-wrapper"><img class="icon" src="images/Icons/Location.svg"><a class="icon-text"
+                                href="#">REYKJAVIK, ICELAND</a></p>
                     </div>
                 </div>
             </div>
 
             <div class="right-col">
-                    <form>
-                        <input type="text" id="full_name" name="full_name" placeholder="Name"><br>
-                        <input type="text" id="email" name="email" placeholder="E-mail"><br>
-                        <textarea id="message" name="message" rows="5" placeholder="Message"></textarea>
-                        <input type="submit" class="btn" value="Send">
-                    </form>
+                <form onsubmit="return false">
+                    <input type="text" id="full_name" name="full_name" placeholder="Name"><br>
+                    <input type="email" id="email" name="email" placeholder="E-mail"><br>
+                    <textarea id="message" name="message" rows="5" placeholder="Message"></textarea>
+                    <button class="btn" onclick="sendContact();">Send</button>
+                </form>
             </div>
-                
         </section>
 
 
@@ -66,16 +70,13 @@
             </div>
 
         </aside>
-
+        <footer class="bg-dark social">
+            <a href="https://www.facebook.com/" target="_blank"><img class="icons" src="./Img/Facebook.svg"></a>
+            <a href="https://twitter.com/?lang=en" target="_blank"><img class="icons" src="./Img/Twitter.svg"></a>
+            <a href="https://www.instagram.com/" target="_blank"><img class="icons" src="./Img/Instagram.svg"></a>
+        </footer>
     </div>
 
-    <footer class="bg-dark social">
-        <img class="icons" src="./Img/Facebook.svg">
-        <img class="icons" src="./Img/Twitter.svg">
-        <img class="icons" src="./Img/Instagram.svg">
-    </footer>
-    </div>
 </body>
-​
 
 </html>
