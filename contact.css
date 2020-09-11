@@ -88,7 +88,6 @@
     text-decoration: none;
     margin-top: 20px;
     border: 0px;
-
 }
 
 input[type=text] {
@@ -110,7 +109,6 @@ input[type=email] {
     font-size: 16px;
     font-family: 'Raleway' !important;
 }
-
 textarea {
     padding: 10px;
     margin-bottom: 40px;
